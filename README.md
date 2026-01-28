@@ -1,2 +1,2 @@
-# sandusubedi.github.io
+# SanduSubedi.github.io
 Web Profile

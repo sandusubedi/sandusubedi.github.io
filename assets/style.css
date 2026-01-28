@@ -1,0 +1,25 @@
+:root{
+  --bg:#f6f7fb;
+  --accent:#2b6cb0;
+  --muted:#666;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:#111;margin:0}
+.site-header{background:white;padding:18px 24px;border-bottom:1px solid #e6e9ef;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.site-title h1{margin:0;font-size:1.4rem}
+.site-title .tag{color:var(--muted);margin:6px 0}
+.site-nav{margin-left:auto}
+.site-nav a{margin-left:12px;color:var(--accent);text-decoration:none}
+.container{max-width:920px;margin:28px auto;padding:0 20px}
+.profile{display:flex;gap:18px;align-items:center}
+.avatar{width:120px;height:120px;border-radius:8px;background:#fff;border:1px solid #ddd}
+.bio h2{margin:0 0 6px 0}
+.more{margin-top:20px;background:white;padding:18px;border-radius:8px;border:1px solid #e6e9ef}
+.site-footer{text-align:center;color:var(--muted);padding:18px 0;margin-top:36px}
+
+@media(max-width:640px){.profile{flex-direction:column;align-items:flex-start}.avatar{width:96px;height:96px}}
+
+/* PDF button (flat) */
+.pdf-btn{display:inline-flex;align-items:center;gap:4px;border:1px solid rgba(43,108,176,0.15);background:#fff;color:var(--accent);padding:4px 8px;border-radius:4px;text-decoration:none;font-weight:600;font-size:0.85rem}
+.pdf-btn svg{fill:var(--accent)}
+.pdf-btn:hover{background:rgba(43,108,176,0.04);border-color:rgba(43,108,176,0.25)}
